@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">CBBaapp</string>
+    <string name="activity_login">CBB Japanese Quiz</string>
+    <string name="cbb_japanese_quiz">CBB Japanese Quiz</string>
+    <string name="putingname">名前を入れてね</string>
+    <string name="welcome_to_cbb">Welcome to CBB</string>
+    <string name="start">START</string>
+    <string name="なまえを入れてね">なまえをいれてね</string>
+    <string name="name">Name</string>
+    <string name="cbb">CBBのにほんご</string>
+    <string name="let_s_study_japanese_n">Let\'s study Japanese\nにほんごをべんきょうしよう</string>
+    <string name="hukusyuu">ふくしゅう</string>
+    <string name="reading">READING</string>
+    <string name="lisntnig">LISNTNIg</string>
+    <string name="setence">SETENCE</string>
+    <string name="word">WORD</string>
+
+    <string name="wordList">ごい</string>
+
+    e
+    <string name="welcome_to_class">ようこそCBBへ！</string>
+    <string name="content_description">Content Description</string>
+    <string name="are_you_ready_to_learn_japanese_with_lodosha">にほんごをべんきょうしよう！</string>
+    <string name="welcome_descripton">まいにちべんきょうをするとみらいはあかるい</string>
+
+    <string-array name="testList">
+        <item name="test">たんご1</item>
+        <item name="test">たんご2</item>
+        <item name="test">どうし3</item>
+        <item name="test">どうし4</item>
+        <item name="test">どうし5</item>
+        <item name="test">けいようし6</item>
+        <item name="test">けいようし7</item>
+        <item name="test">けいようし8</item>
+
+    </string-array>
+
+
+    <string name="pick_one">4つの中からえらんでください。</string>
+
+
+</resources>

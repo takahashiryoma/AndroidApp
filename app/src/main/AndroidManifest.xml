@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.join.cbbaapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".HukusyuuApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CBBaapp">
+        <activity android:name="com.join.cbbaapp.ListenQuiz10"></activity>
+        <activity android:name="com.join.cbbaapp.ListenQuiz9" />
+        <activity android:name="com.join.cbbaapp.ListenQuiz8" />
+        <activity android:name="com.join.cbbaapp.ListenQuiz7" />
+        <activity android:name="com.join.cbbaapp.ListenQuiz6" />
+        <activity android:name="com.join.cbbaapp.ListenQuiz5" />
+        <activity android:name="com.join.cbbaapp.ListenQuiz4" />
+        <activity android:name="com.join.cbbaapp.ListenQuiz3" />
+        <activity android:name="com.join.cbbaapp.ListenQuiz2" />
+        <activity android:name="com.join.cbbaapp.hukusyuuQuiz5" />
+        <activity android:name="com.join.cbbaapp.hukusyuuQuiz4" />
+        <activity android:name="com.join.cbbaapp.hukusyuuQuiz3" />
+        <activity android:name="com.join.cbbaapp.hukusyuuQuiz2" />
+        <activity android:name="com.join.cbbaapp.hukusyuuQuiz1" />
+        <activity android:name="com.join.cbbaapp.tangoQuiz14" />
+        <activity android:name="com.join.cbbaapp.tangoQuiz13" />
+        <activity android:name="com.join.cbbaapp.tangoQuiz12" />
+        <activity android:name="com.join.cbbaapp.ListenQuiz1" />
+        <activity android:name="com.join.cbbaapp.ReadingQuiz10" />
+        <activity android:name="com.join.cbbaapp.ReadingQuiz8" />
+        <activity android:name="com.join.cbbaapp.ReadingQuiz7" />
+        <activity android:name="com.join.cbbaapp.ReadingQuiz6" />
+        <activity android:name="com.join.cbbaapp.ReadingQuiz5" />
+        <activity android:name="com.join.cbbaapp.ReadingQuiz4" />
+        <activity android:name="com.join.cbbaapp.ReadingQuiz3" />
+        <activity android:name="com.join.cbbaapp.ReadingQuiz2" />
+        <activity android:name="com.join.cbbaapp.ReadingQuiz9" />
+        <activity android:name="com.join.cbbaapp.ReadingQuiz1" />
+        <activity android:name="com.join.cbbaapp.tangoQuiz11" />
+        <activity android:name="com.join.cbbaapp.bunpouQuiz10" />
+        <activity android:name="com.join.cbbaapp.bunpouQuiz9" />
+        <activity android:name="com.join.cbbaapp.bunpouQuiz8" />
+        <activity android:name="com.join.cbbaapp.bunpouQuiz7" />
+        <activity android:name="com.join.cbbaapp.bunpouQuiz6" />
+        <activity android:name="com.join.cbbaapp.bunpouQuiz5" />
+        <activity android:name="com.join.cbbaapp.bunpouQuiz4" />
+        <activity android:name="com.join.cbbaapp.bunpouQuiz3" />
+        <activity android:name="com.join.cbbaapp.bunpouQuiz2" />
+        <activity android:name="com.join.cbbaapp.bunpouQuiz1" />
+        <activity android:name="com.join.cbbaapp.tangoQuiz10" />
+        <activity android:name="com.join.cbbaapp.tangoQuiz9" />
+        <activity android:name="com.join.cbbaapp.tangoQuiz8" />
+        <activity android:name="com.join.cbbaapp.tangoQuiz7" />
+        <activity android:name="com.join.cbbaapp.tangoQuiz6" />
+        <activity android:name="com.join.cbbaapp.tangoQuiz5" />
+        <activity android:name="com.join.cbbaapp.tangoQuiz4" />
+        <activity android:name="com.join.cbbaapp.tangoQuiz3" />
+        <activity android:name="com.join.cbbaapp.Fukusyuu" />
+        <activity android:name="com.join.cbbaapp.tangoQuiz2" />
+        <activity android:name="com.join.cbbaapp.ResultActivity" />
+        <activity android:name="com.join.cbbaapp.tangoQuiz1">
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name="com.join.cbbaapp.hukusyuuList" />
+        <activity android:name="com.join.cbbaapp.ReadingList" />
+        <activity android:name="com.join.cbbaapp.ListeingList" />
+        <activity android:name="com.join.cbbaapp.SentenceListActivity" />
+        <activity
+            android:name="com.join.cbbaapp.WordListActivity"
+            android:label="テスト"
+            android:parentActivityName="com.join.cbbaapp.AllListActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name="com.join.cbbaapp.AllListActivity"
+            android:parentActivityName="com.join.cbbaapp.MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="ExtraText" />
+        <activity android:name="com.join.cbbaapp.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
